@@ -1,0 +1,25 @@
+.blog{
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+    color: darkgreen;
+    width: 20%;
+    float: left;
+    text-align: center;
+    border-radius: 10px 20px 0px 10px;
+}
+h1:hover{
+    color:red;
+}
+.wor{
+    color: darkblue;
+}
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: red;
+}
+h1::before{
+    content:  'Hi';
+}
